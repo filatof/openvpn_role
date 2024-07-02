@@ -1,0 +1,8 @@
+[you-ovpn-server]
+openvpn ansible_host=109.71.246.47 ansible_ssh_user=root ansible_ssh_private_key_file=~/.ssh/id_ed25519
+
+[you-ca-server]
+openvpn ansible_host=109.71.246.47 ansible_ssh_user=root ansible_ssh_private_key_file=~/.ssh/id_ed25519
+
+[local]
+localhost ansible_connection=local
